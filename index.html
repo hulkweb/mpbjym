@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>BJYM</title>
+
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Roboto:400,500&display=swap"
+    rel="stylesheet" />
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+  <link rel="shortcut icon" href="../bjym_logo.png" type="image/x-icon">
+  <style>
+    p.big {
+      font-size: 19px;
+      font-weight: 500;
+      color: gray;
+    }
+
+    .outer {
+      display: flex;
+      justify-items: center;
+      align-items: center;
+      align-items: center;
+      height: fit-content;
+      background-color: transparent;
+      font-size: 1.8rem;
+      font-family: Verdana, sans-serif;
+      font-weight: 100;
+
+
+    }
+
+    .grad {
+      text-transform: uppercase;
+      margin: 0 auto;
+      background-image: linear-gradient(90deg, #FF7304, #26a204) !important;
+      background-clip: text !important;
+      -moz-background-clip: text !important;
+      -webkit-background-clip: text !important;
+      color: transparent !important;
+    }
+
+    .slider_section .carousel-indicators li {
+      border-radius: 50%;
+      animation: all 0.5s;
+    }
+
+    .slider_section .carousel-indicators li.active {
+      background-color: #26a204;
+    }
+
+    .slider-detail h2 {
+      margin-top: 5rem !important;
+    }
+
+    .bottom {
+      display: block;
+      max-height: 100px;
+      padding: 1rem 0.5rem;
+      text-align: center;
+      height: 0px;
+      animation: all 0.5s;
+      color: rgb(93, 89, 89);
+      background: white;
+      width: 100%;
+    }
+
+    .bottom h3 {
+      font-size: 19px;
+    }
+
+    .bottom a {
+      height: 19px;
+      width: 19px;
+      background: gray;
+      color: white;
+      border-radius: 50%;
+    }
+
+    .bottom i {
+      color: white;
+      font-weight: bold;
+    }
+
+    .service_img-box:hover>.bottom {
+      height: 100px;
+    }
+
+    .events .card {
+      transition: all 0.5s;
+      padding: 0.5rem;
+    }
+
+    .events .card:hover {
+      transform: scale(1.05);
+    }
+
+    a.nav-link {
+      transition: all 0.5s;
+      font-size: 19px;
+      font-weight: 500;
+      text-transform: uppercase;
+      margin-left: 1rem;
+    }
+
+    footer i{
+      font-size: 21px !important;
+    }
+    @media(max-width:786px) {
+      .events .card h4 {
+        text-align: center;
+      }
+
+      .flip-card__container {
+        width: 87% !important;
+      }
+    }
+  </style>
+  <link rel="stylesheet" href="css/card.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+
+<body>
+  <!-- header section strats -->
+  <header class="header_section p-0"
+    style="background-image: linear-gradient(to left,#FB6003  ,#F9B428 ,#FB6003)!important;height: fit-content;">
+    <div class="container p-0">
+      <nav class="navbar navbar-expand-lg custom_nav-container ">
+        <a class="navbar-brand" href="#">
+          <div class="logo_box">
+            <img src="../bjym_logo.png" alt="" />
+          </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mr-2">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About BJYM </a>
+            </li>
+            <li class=" nav-item ">
+              <a class="nav-link" href="about.html"> BJYM Leadership </a>
+
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Events</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="btn btn-primary rounded shadow ml-4" href="#">Login </a>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- end header section -->
+
+  <!-- slider section -->
+  <section class=" slider_section">
+    <div id="carouselExampleIndicators" class="carousel slide vert" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+      </ol>
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <div class="slider_box" style="background-image: url(images/0.jpg);">
+            <div class="fixed_company-detail">
+              <p>
+
+              </p>
+            </div>
+            <div class="slider-detail">
+              <div class="slider_detail-heading">
+                <h2>
+
+                  Hon’ble Prime Minister
+                </h2>
+                <h1>
+                  SHRI NARENDRA MODI
+                </h1>
+              </div>
+              <div class="slider_detail-text">
+                <p>
+
+                </p>
+              </div>
+              <div class="slider_detail-btn">
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="slider_box" style="background-image: url(images/1.jpg);">
+            <div class="fixed_company-detail">
+              <p>
+
+              </p>
+            </div>
+            <div class="slider-detail">
+              <div class="slider_detail-heading">
+                <h2>
+                  Hon’ble BJP National President
+                </h2>
+                <h1>
+                  SHRI J.P. NADDA
+                </h1>
+              </div>
+              <div class="slider_detail-text">
+                <p>
+
+                </p>
+              </div>
+              <div class="slider_detail-btn">
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="slider_box" style="background-image: url(images/2.jpg);">
+            <div class="fixed_company-detail">
+              <p>
+
+              </p>
+            </div>
+            <div class="slider-detail">
+              <div class="slider_detail-heading">
+                <h2>
+                  Hon’ble BJYM National President
+                </h2>
+                <h1>
+                  SHRI TEJASVI SURYA
+                </h1>
+              </div>
+              <div class="slider_detail-text">
+                <p>
+
+                </p>
+              </div>
+              <div class="slider_detail-btn">
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="slider_box" style="background-image: url(images/3.jpg);">
+            <div class="fixed_company-detail">
+              <p>
+
+              </p>
+            </div>
+            <div class="slider-detail">
+              <div class="slider_detail-heading">
+                <h2>
+                  Hon’ble CM MadhyaPradesh
+                </h2>
+                <h1>
+                  SHRI SHIVRAJ SINGH <br style="height: 4px"> CHOUHAN JI
+                </h1>
+              </div>
+              <div class="slider_detail-text">
+                <p>
+
+                </p>
+              </div>
+              <div class="slider_detail-btn">
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="slider_box" style="background-image: url(images/4.jpg);">
+            <div class="fixed_company-detail">
+              <p>
+
+              </p>
+            </div>
+            <div class="slider-detail">
+              <div class="slider_detail-heading">
+                <h2>
+                  Hon’ble State President
+                </h2>
+                <h1>
+                  SHRI V.D. SHARMA
+                </h1>
+              </div>
+              <div class="slider_detail-text">
+                <p>
+
+                </p>
+              </div>
+              <div class="slider_detail-btn">
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="slider_box" style="background-image: url(images/5.jpg);">
+            <div class="fixed_company-detail">
+              <p>
+
+              </p>
+            </div>
+            <div class="slider-detail">
+              <div class="slider_detail-heading">
+                <h2>
+                  BJYM State President
+                </h2>
+                <h1>
+                  SHRI VAIBHAV PAWAR
+                </h1>
+              </div>
+              <div class="slider_detail-text">
+                <p>
+
+                </p>
+              </div>
+              <div class="slider_detail-btn">
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- end slider section -->
+
+  <!-- welcome section -->
+  <section class="welcome_section layout_padding">
+    <div class="container-fluid">
+      <div class="row">
+        <div class=" col-md-6">
+          <div>
+            <img class="img-fluid" src="images/welcome.jpg" alt="" />
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="welcome_detail">
+            <div class="outer">
+              <h2 class="grad">
+                ABOUT BJYM
+              </h2>
+            </div>
+
+            <p class="big">
+
+              1978 में स्थापित, भारतीय जनता युवा मोर्चा (BJYM), दुनिया का सबसे बड़ा युवा राजनीतिक संगठन है। इसका मूल
+              संगठन, भारतीय जनता पार्टी (भाजपा) दुनिया की सबसे बड़ी राजनीतिक पार्टी है।
+              <br>
+              लोकसभा में सांसद (बैंगलोर दक्षिण), श्री तेजस्वी सूर्य भाजयुमो के वर्तमान अध्यक्ष हैं
+              <br>
+              श्री वैभव पंवार भारतीय जनता युवा मोर्चा मध्यप्रदेश के प्रदेश अध्यक्ष है।
+            </p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end welcome section -->
+  <section class="welcome_section layout_padding">
+    <div class="container-fluid">
+      <div class="row">
+
+        <div class="col-md-6">
+          <div class="welcome_detail">
+            <div class="outer">
+              <h2 class="grad">
+                MISSION & VISION
+              </h2>
+            </div>
+
+            <p class="big">
+
+              1978 में स्थापित, भारतीय जनता युवा मोर्चा (BJYM), दुनिया का सबसे बड़ा युवा राजनीतिक संगठन है। इसका मूल
+              संगठन, भारतीय जनता पार्टी (भाजपा) दुनिया की सबसे बड़ी राजनीतिक पार्टी है।
+              <br>
+              लोकसभा में सांसद (बैंगलोर दक्षिण), श्री तेजस्वी सूर्य भाजयुमो के वर्तमान अध्यक्ष हैं
+              <br>
+              श्री वैभव पंवार भारतीय जनता युवा मोर्चा मध्यप्रदेश के प्रदेश अध्यक्ष है।
+            </p>
+
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div>
+            <img class="img-fluid" src="images/welcome.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sections Team -->
+  <section class="container-fluid" style="overflow:hidden">
+    <div class="outer">
+      <h2 class="grad">
+        MPBJYM TEAM
+      </h2>
+    </div>
+    <br>
+    <br>
+    <section class="row">
+
+      <!-- Card: City -->
+      <section class="card-section col-sm-4">
+        <div class="card_custom">
+          <div class="flip-card">
+            <div class="flip-card__container">
+              <div class="card-front">
+                <div class="card-front__tp card-front__tp--city">
+                  <h2 class="card-front__heading">
+                    Ms. Neha JOshi
+                  </h2>
+                  <p>Vice President</p>
+                </div>
+
+                <div class="card-front__bt">
+                  <p class="card-front__text-view card-front__text-view--city" style="font-size: 16px">
+                    View
+                  </p>
+                </div>
+              </div>
+              <div class="card-back">
+                <img
+                  src="https://i0.wp.com/bjym.org/wp-content/uploads/2021/09/60F14D57-11F2-49A4-A4E9-C2B21E00D5D6-Neha-Joshi-scaled-e1633365140799.jpeg?fit=1843%2C2131&ssl=1"
+                  height="" class="img-fluid" alt="">
+              </div>
+            </div>
+          </div>
+
+          <div class="inside-page">
+            <div class="inside-page__container">
+              <h3 class="inside-page__heading inside-page__heading--city">
+                Ms. Neha JOshi
+              </h3>
+              <p class="inside-page__text">
+                <a href="#" class="btn btn-secondary rounded-circle"> <i class="fa fa-facebook " aria-hidden="true"></i>
+                </a>
+                <a href="#" class="btn btn-secondary rounded-circle"> <i class="fa fa-instagram "
+                    aria-hidden="true"></i> </a>
+                <a href="#" class="btn btn-secondary rounded-circle"> <i class="fa fa-youtube " aria-hidden="true"></i>
+                </a>
+
+              </p>
+              <!-- <a href="#" class="inside-page__btn inside-page__btn--city">View deals</a> -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </section>
+  </section>
+
+  <!-- Section Team ENd -->
+  <!-- service section -->
+  <section class="service_section ">
+    <div class="container">
+
+
+    </div>
+    <div class="container">
+
+    </div>
+  </section>
+  <!-- end service section -->
+
+  <!-- security section -->
+
+  <section class="security_section layout_padding">
+    <div class="outer">
+      <h2 class="grad">
+        GALLERY
+      </h2>
+    </div>
+    <div class="security_container">
+      <div class="carousel-wrap">
+        <div class="owl-carousel">
+          <div class="item">
+            <div class="security_img-box i-box-1">
+              <a href=""> View More</a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="security_img-box i-box-2">
+              <a href=""> View More</a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="security_img-box i-box-3">
+              <a href=""> View More</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- end security section -->
+
+
+  <!-- story section -->
+  <div class="outer">
+    <h2 class="grad">
+      Events
+    </h2>
+  </div>
+  <section class="container-fluid events">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 p-4">
+          <div class="card"
+            style="box-shadow:0px 6px 6px  #ff750485;border-radius: 10px;min-height: 200px;background: #ff7504;color: white;">
+            <div class="row">
+              <div class="col-sm-4">
+                <img src="" alt="" class="img-fluid rounded m-2">
+              </div>
+              <div class="col-sm-8">
+                <h4 class="py-1">Event Title</h4>
+                <p class="m-1"><strong class="mr-4"> Time:</strong>17 Decmeber 2021 </p>
+                <p class="m-1"><strong class="mr-4"> Place:</strong> VidhanSabha </p>
+                <p class="oveflow-hidden m-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga nobis
+                  assumenda
+                  ipsam quae, laudantium
+                  iste. Consequuntur sapiente exercitationem fugit,
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="layout_padding story_section my-4">
+    <div class="container-fluid">
+      <div class="row">
+        <div class=" col-md-6" style="box-shadow: 0 0.5rem 1rem #fb62039f !important;">
+          <div>
+            <img class="img-fluid" src="images/security.jpg" alt="" />
+          </div>
+        </div>
+        <div class=" col-md-6">
+          <div class="story_detail">
+            <h3>
+
+            </h3>
+            <h2>
+              <div class="outer">
+                <h2 class="grad">
+                  Shri Vaibhav Pawar Ji
+                </h2>
+              </div>
+            </h2>
+            <p>
+              It is a long established fact that a reader will be distracted by the readable content of a page when
+              looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of
+              letters, as opposed to using 'Content here, content here', making it look like readable English. Many
+              desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a
+              search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved
+              over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+            </p>
+            <p class="inside-page__text">
+              <a href="#" class="btn btn-secondary rounded-circle"> <i class="fa fa-facebook " aria-hidden="true"></i>
+              </a>
+              <a href="#" class="btn btn-secondary rounded-circle"> <i class="fa fa-instagram " aria-hidden="true"></i>
+              </a>
+              <a href="#" class="btn btn-secondary rounded-circle"> <i class="fa fa-youtube " aria-hidden="true"></i>
+              </a>
+              <a href="#" class="btn btn-secondary rounded-circle"> <i class="fa fa-globe " aria-hidden="true"></i>
+              </a>
+            </p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end story section -->
+
+  <!-- contact section -->
+
+
+  <!-- end contact section -->
+
+  <!-- info section -->
+  <footer class="container-fluid py-3" style="background: #f4f4f4;">
+    <div class="container">
+      © 2021 — by BJYM. All Right Reserved. | Privacy Policy | Disclaimer
+      <br>
+      6A, Pandit Deen Dayal Upadhyaya Marg, New Delhi, Delhi, India 110002, <br> Phone No. : 011-23500000
+      <hr>
+      <div class="p-1">
+        <a href="#" class="rounded-circle p-1 facebook">
+          <i class="fa fa-facebook text-dark   " aria-hidden="true"></i>
+        </a>
+        <a href="#" class="rounded-circle p-1 twitter">
+          <i class="fa fa-twitter text-dark" aria-hidden="true"></i>
+        </a>
+        <a href="#" class="rounded-circle p-1 instagram">
+          <i class="fa fa-instagram text-dark" aria-hidden="true"></i>
+        </a>
+        <a href="#" class="rounded-circle p-1 envelope">
+          <i class="fa fa-envelope text-dark" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- end info section -->
+
+
+  <!-- footer section -->
+  
+  <!-- footer section -->
+
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js">
+  </script>
+  <script type="text/javascript">
+    $(".owl-carousel").owlCarousel({
+      loop: true,
+      margin: 20,
+      nav: true,
+      navText: [],
+      autoplay: true,
+      autoplayHoverPause: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 2
+        },
+        1000: {
+          items: 3
+        }
+      }
+    });
+  </script>
+
+  <script>
+    $(".nav_search-btn").click(function () {
+      if ($(".nav_search-input").hasClass("d-none")) {
+        event.preventDefault();
+        $(".nav_search-input")
+          .animate({
+            left: "-1000px"
+          },
+            "1000000"
+          )
+          .removeClass("d-none");
+      } else {
+        $(".nav_search-input")
+          .animate({
+            left: "0px"
+          },
+            "1000000"
+          )
+          .addClass("d-none");
+      }
+    });
+  </script>
+
+  <script>
+    // This example adds a marker to indicate the position of Bondi Beach in Sydney,
+    // Australia.
+    function initMap() {
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 11,
+        center: {
+          lat: 40.645037,
+          lng: -73.880224
+        },
+      });
+
+      var image = 'images/maps-and-flags.png';
+      var beachMarker = new google.maps.Marker({
+        position: {
+          lat: 40.645037,
+          lng: -73.880224
+        },
+        map: map,
+        icon: image
+      });
+    }
+  </script>
+  <!-- google map js -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap">
+  </script>
+  <!-- end google map js -->
+
+</body>
+
+</html>
