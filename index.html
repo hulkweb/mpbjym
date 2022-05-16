@@ -123,9 +123,10 @@
       margin-left: 1rem;
     }
 
-    footer i{
+    footer i {
       font-size: 21px !important;
     }
+
     @media(max-width:786px) {
       .events .card h4 {
         text-align: center;
@@ -134,6 +135,106 @@
       .flip-card__container {
         width: 87% !important;
       }
+    }
+
+    #leadership {
+      position: relative;
+    }
+
+    .child {
+      background-color: #FFF;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      color: #F9B428;
+      list-style-type: none;
+      position: absolute;
+      z-index: 10;
+      transition: all 0.5s ease-in-out;
+      display: none;
+      overflow: hidden;
+
+    }
+
+    .child a {
+      color: #F9B428 !important;
+      font-size: 17px;
+      padding: 0.5rem 0.8rem;
+      text-align: center;
+
+    }
+
+    .child li {
+      text-align: center;
+      padding: 0.2rem 0.8rem;
+    }
+
+    .child li:hover {
+      background: #f4f4f4;
+
+    }
+
+
+    .slider_section {
+      background-image: linear-gradient(to left, #FB6003, #F9B428, #FB6003) !important;
+    }
+
+    #slide_0 {
+      background-image: url(images/0.jpg);
+    }
+
+    #slide_1 {
+      background-image: url(images/1.jpg) !important;
+    }
+
+    #slide_2 {
+      background-image: url(images/2.jpg) !important;
+    }
+
+    #slide_3 {
+      background-image: url(images/3.jpg);
+    }
+
+    #slide_4 {
+      background-image: url(images/4.jpg);
+    }
+
+    #slide_5 {
+      background-image: url(images/5.jpg);
+    }
+
+    @media(max-width:700px) {
+      #slide_0 {
+        background-image: url(images/mobile_0.jpg);
+      }
+
+      #slide_1 {
+        background-image: url(images/mobile_1.jpg) !important;
+      }
+
+      #slide_2 {
+        background-image: url(images/mobile_2.jpg) !important;
+      }
+
+      #slide_3 {
+        background-image: url(images/mobile_3.jpg);
+      }
+
+      #slide_4 {
+        background-image: url(images/mobile_4.jpg);
+      }
+
+      #slide_5 {
+        background-image: url(images/mobile_5.jpg);
+      }
+
+      .slider-detail h2 {
+        margin-top: 24rem !important;
+        font-size: 1.6rem;
+      }
+
+      .slider-detail h1 {}
     }
   </style>
   <link rel="stylesheet" href="css/card.css">
@@ -166,7 +267,15 @@
               <a class="nav-link" href="about.html">About BJYM </a>
             </li>
             <li class=" nav-item ">
-              <a class="nav-link" href="about.html"> BJYM Leadership </a>
+              <a class="nav-link" href="#" id="leadership"> BJYM Leadership </a>
+              <ul class="child">
+                <li class="nav-item">
+                  <a href="#" class="nav-link p-1">Jila Adhyanksh</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link p-1">Jila Adhyanksh</a>
+                </li>
+              </ul>
 
             </li>
             <li class="nav-item">
@@ -201,7 +310,7 @@
       <div class="carousel-inner">
 
         <div class="carousel-item active">
-          <div class="slider_box" style="background-image: url(images/0.jpg);">
+          <div class="slider_box" id="slide_0">
             <div class="fixed_company-detail">
               <p>
 
@@ -229,7 +338,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <div class="slider_box" style="background-image: url(images/1.jpg);">
+          <div class="slider_box" id="slide_1">
             <div class="fixed_company-detail">
               <p>
 
@@ -256,7 +365,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <div class="slider_box" style="background-image: url(images/2.jpg);">
+          <div class="slider_box" id="slide_2">
             <div class="fixed_company-detail">
               <p>
 
@@ -283,7 +392,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <div class="slider_box" style="background-image: url(images/3.jpg);">
+          <div class="slider_box" id="slide_3">
             <div class="fixed_company-detail">
               <p>
 
@@ -310,7 +419,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <div class="slider_box" style="background-image: url(images/4.jpg);">
+          <div class="slider_box" id="slide_4">
             <div class="fixed_company-detail">
               <p>
 
@@ -337,7 +446,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <div class="slider_box" style="background-image: url(images/5.jpg);">
+          <div class="slider_box" id="slide_5">
             <div class="fixed_company-detail">
               <p>
 
@@ -666,7 +775,7 @@
 
 
   <!-- footer section -->
-  
+
   <!-- footer section -->
 
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
@@ -693,6 +802,16 @@
         }
       }
     });
+
+    const leadership = document.getElementById("leadership");
+    leadership.addEventListener("mousemove", () => {
+      $(".child").show()
+      setTimeout(()=>{
+      $(".child").hide()
+
+      },2000)
+    })
+  
   </script>
 
   <script>
