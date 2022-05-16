@@ -235,6 +235,22 @@
       }
 
       .slider-detail h1 {}
+
+      #mission {
+        flex-direction: column-reverse;
+      }
+
+      .slider_section .carousel-indicators li {
+        margin: 0 2px auto;
+
+      }
+
+      .slider_section .carousel-indicators li.active {
+        width: 18px;
+        height: 18px;
+        opacity: 1;
+        margin: 0 2px auto;
+      }
     }
   </style>
   <link rel="stylesheet" href="css/card.css">
@@ -493,7 +509,7 @@
       <div class="row">
         <div class=" col-md-6">
           <div>
-            <img class="img-fluid" src="images/welcome.jpg" alt="" />
+            <img class="img-fluid" src="images/mpbjym.jpeg" alt="" />
           </div>
         </div>
         <div class="col-md-6">
@@ -522,7 +538,7 @@
   <!-- end welcome section -->
   <section class="welcome_section layout_padding">
     <div class="container-fluid">
-      <div class="row">
+      <div class="row" id="mission">
 
         <div class="col-md-6">
           <div class="welcome_detail">
@@ -806,12 +822,12 @@
     const leadership = document.getElementById("leadership");
     leadership.addEventListener("mousemove", () => {
       $(".child").show()
-      setTimeout(()=>{
-      $(".child").hide()
+      setTimeout(() => {
+        $(".child").hide()
 
-      },2000)
+      }, 2000)
     })
-  
+
   </script>
 
   <script>
