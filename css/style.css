@@ -247,7 +247,7 @@ a.nav-link:hover::after {
 
 .welcome_detail h3 {
   text-transform: uppercase;
-  color: #254a93;
+  color: #FF7304;
   position: relative;
 }
 
@@ -294,7 +294,7 @@ a.nav-link:hover::after {
 
 .service_detail h3 {
   text-transform: uppercase;
-  color: #254a93;
+  color: #FF7304;
   position: relative;
 }
 
@@ -391,7 +391,7 @@ a.nav-link:hover::after {
 
 .security_section h3 {
   text-transform: uppercase;
-  color: #254a93;
+  color: #FF7304;
   position: relative;
   text-align: center;
 }
@@ -478,13 +478,14 @@ a.nav-link:hover::after {
 .owl-carousel .owl-nav .owl-prev {
   position: absolute;
   top: 50%;
-  background-color: #254a93;
+  background-color: #FF7304;
   width: 70px;
   height: 40px;
   background-repeat: no-repeat;
   background-size: 22px;
   background-position: 50%;
   transform: translateY(-50%);
+  margin-top: 10px;
 }
 
 .owl-carousel .owl-nav .owl-next {
@@ -528,7 +529,7 @@ a.nav-link:hover::after {
 
 .story_detail h3 {
   text-transform: uppercase;
-  color: #254a93;
+  color: #FF7304;
 
   margin: 0;
 }
@@ -583,7 +584,7 @@ a.nav-link:hover::after {
 
 .contact_form-container form button {
   border: none;
-  background-color: #254a93;
+  background-color: #FF7304;
   color: #fff;
   padding: 8px 20px;
   margin-top: 15px;
@@ -645,7 +646,7 @@ a.nav-link:hover::after {
 
 .info_section .news_container form button {
   border: none;
-  background-color: #254a93;
+  background-color: #FF7304;
   color: #fff;
   font-size: 14px;
   padding: 8px 15px;
@@ -667,7 +668,7 @@ a.nav-link:hover::after {
 /* footer section*/
 
 .footer_section {
-  background-color: #254a93;
+  background-color: #FF7304;
   padding: 20px 0;
   font-family: "Roboto", sans-serif;
 }
@@ -681,5 +682,7 @@ a.nav-link:hover::after {
 .footer_section a {
   color: #fff;
 }
-
+.rounded-circle:hover{
+  background:green  !important;
+}
 /* end footer section*/

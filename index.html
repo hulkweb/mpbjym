@@ -28,231 +28,12 @@
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
-  <link rel="shortcut icon" href="../bjym_logo.png" type="image/x-icon">
+  <link rel="shortcut icon" href="bjym_logo.png" type="image/x-icon">
   <style>
-    p.big {
-      font-size: 19px;
-      font-weight: 500;
-      color: gray;
-    }
 
-    .outer {
-      display: flex;
-      justify-items: center;
-      align-items: center;
-      align-items: center;
-      height: fit-content;
-      background-color: transparent;
-      font-size: 1.8rem;
-      font-family: Verdana, sans-serif;
-      font-weight: 100;
-
-
-    }
-
-    .grad {
-      text-transform: uppercase;
-      margin: 0 auto;
-      background-image: linear-gradient(90deg, #FF7304, #26a204) !important;
-      background-clip: text !important;
-      -moz-background-clip: text !important;
-      -webkit-background-clip: text !important;
-      color: transparent !important;
-    }
-
-    .slider_section .carousel-indicators li {
-      border-radius: 50%;
-      animation: all 0.5s;
-    }
-
-    .slider_section .carousel-indicators li.active {
-      background-color: #26a204;
-    }
-
-    .slider-detail h2 {
-      margin-top: 5rem !important;
-    }
-
-    .bottom {
-      display: block;
-      max-height: 100px;
-      padding: 1rem 0.5rem;
-      text-align: center;
-      height: 0px;
-      animation: all 0.5s;
-      color: rgb(93, 89, 89);
-      background: white;
-      width: 100%;
-    }
-
-    .bottom h3 {
-      font-size: 19px;
-    }
-
-    .bottom a {
-      height: 19px;
-      width: 19px;
-      background: gray;
-      color: white;
-      border-radius: 50%;
-    }
-
-    .bottom i {
-      color: white;
-      font-weight: bold;
-    }
-
-    .service_img-box:hover>.bottom {
-      height: 100px;
-    }
-
-    .events .card {
-      transition: all 0.5s;
-      padding: 0.5rem;
-    }
-
-    .events .card:hover {
-      transform: scale(1.05);
-    }
-
-    a.nav-link {
-      transition: all 0.5s;
-      font-size: 19px;
-      font-weight: 500;
-      text-transform: uppercase;
-      margin-left: 1rem;
-    }
-
-    footer i {
-      font-size: 21px !important;
-    }
-
-    @media(max-width:786px) {
-      .events .card h4 {
-        text-align: center;
-      }
-
-      .flip-card__container {
-        width: 87% !important;
-      }
-    }
-
-    #leadership {
-      position: relative;
-    }
-
-    .child {
-      background-color: #FFF;
-
-      display: flex;
-      flex-direction: column;
-      justify-content: space-evenly;
-      color: #F9B428;
-      list-style-type: none;
-      position: absolute;
-      z-index: 10;
-      transition: all 0.5s ease-in-out;
-      display: none;
-      overflow: hidden;
-
-    }
-
-    .child a {
-      color: #F9B428 !important;
-      font-size: 17px;
-      padding: 0.5rem 0.8rem;
-      text-align: center;
-
-    }
-
-    .child li {
-      text-align: center;
-      padding: 0.2rem 0.8rem;
-    }
-
-    .child li:hover {
-      background: #f4f4f4;
-
-    }
-
-
-    .slider_section {
-      background-image: linear-gradient(to left, #FB6003, #F9B428, #FB6003) !important;
-    }
-
-    #slide_0 {
-      background-image: url(images/0.jpg);
-    }
-
-    #slide_1 {
-      background-image: url(images/1.jpg) !important;
-    }
-
-    #slide_2 {
-      background-image: url(images/2.jpg) !important;
-    }
-
-    #slide_3 {
-      background-image: url(images/3.jpg);
-    }
-
-    #slide_4 {
-      background-image: url(images/4.jpg);
-    }
-
-    #slide_5 {
-      background-image: url(images/5.jpg);
-    }
-
-    @media(max-width:700px) {
-      #slide_0 {
-        background-image: url(images/mobile_0.jpg);
-      }
-
-      #slide_1 {
-        background-image: url(images/mobile_1.jpg) !important;
-      }
-
-      #slide_2 {
-        background-image: url(images/mobile_2.jpg) !important;
-      }
-
-      #slide_3 {
-        background-image: url(images/mobile_3.jpg);
-      }
-
-      #slide_4 {
-        background-image: url(images/mobile_4.jpg);
-      }
-
-      #slide_5 {
-        background-image: url(images/mobile_5.jpg);
-      }
-
-      .slider-detail h2 {
-        margin-top: 24rem !important;
-        font-size: 1.6rem;
-      }
-
-      .slider-detail h1 {}
-
-      #mission {
-        flex-direction: column-reverse;
-      }
-
-      .slider_section .carousel-indicators li {
-        margin: 0 2px auto;
-
-      }
-
-      .slider_section .carousel-indicators li.active {
-        width: 18px;
-        height: 18px;
-        opacity: 1;
-        margin: 0 2px auto;
-      }
-    }
   </style>
+  <link rel="stylesheet" href="css/custom.css">
+
   <link rel="stylesheet" href="css/card.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/bootstrap.css">
@@ -280,10 +61,10 @@
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About BJYM </a>
+              <a class="nav-link" href="#about">About BJYM </a>
             </li>
             <li class=" nav-item ">
-              <a class="nav-link" href="#" id="leadership"> BJYM Leadership </a>
+              <a class="nav-link" href="members.html" id="leadership"> BJYM Leadership </a>
               <ul class="child">
                 <li class="nav-item">
                   <a href="#" class="nav-link p-1">Jila Adhyanksh</a>
@@ -295,12 +76,14 @@
 
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Gallery</a>
+              <a class="nav-link" href="#gallery">Gallery</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Events</a>
+              <a class="nav-link" href="#events">Events</a>
             </li>
-
+            <li class="nav-item">
+              <a class="nav-link" href="#president">Our President</a>
+            </li>
             <li class="nav-item">
               <a class="btn btn-primary rounded shadow ml-4" href="#">Login </a>
             </li>
@@ -504,8 +287,8 @@
   <!-- end slider section -->
 
   <!-- welcome section -->
-  <section class="welcome_section layout_padding">
-    <div class="container-fluid">
+  <section class="welcome_section layout_padding" id="about">
+    <div class="container">
       <div class="row">
         <div class=" col-md-6">
           <div>
@@ -535,9 +318,9 @@
       </div>
     </div>
   </section>
-  <!-- end welcome section -->
+  <!-- end welcome section 
   <section class="welcome_section layout_padding">
-    <div class="container-fluid">
+    <div class="container">
       <div class="row" id="mission">
 
         <div class="col-md-6">
@@ -569,8 +352,8 @@
     </div>
   </section>
 
-  <!-- Sections Team -->
-  <section class="container-fluid" style="overflow:hidden">
+ Sections Team -->
+  <section class="container-fluid" style="overflow:hidden" id="team">
     <div class="outer">
       <h2 class="grad">
         MPBJYM TEAM
@@ -578,56 +361,10 @@
     </div>
     <br>
     <br>
-    <section class="row">
+    <div class="container">
+      <div class="row" id="teams"></div>
+    </div>
 
-      <!-- Card: City -->
-      <section class="card-section col-sm-4">
-        <div class="card_custom">
-          <div class="flip-card">
-            <div class="flip-card__container">
-              <div class="card-front">
-                <div class="card-front__tp card-front__tp--city">
-                  <h2 class="card-front__heading">
-                    Ms. Neha JOshi
-                  </h2>
-                  <p>Vice President</p>
-                </div>
-
-                <div class="card-front__bt">
-                  <p class="card-front__text-view card-front__text-view--city" style="font-size: 16px">
-                    View
-                  </p>
-                </div>
-              </div>
-              <div class="card-back">
-                <img
-                  src="https://i0.wp.com/bjym.org/wp-content/uploads/2021/09/60F14D57-11F2-49A4-A4E9-C2B21E00D5D6-Neha-Joshi-scaled-e1633365140799.jpeg?fit=1843%2C2131&ssl=1"
-                  height="" class="img-fluid" alt="">
-              </div>
-            </div>
-          </div>
-
-          <div class="inside-page">
-            <div class="inside-page__container">
-              <h3 class="inside-page__heading inside-page__heading--city">
-                Ms. Neha JOshi
-              </h3>
-              <p class="inside-page__text">
-                <a href="#" class="btn btn-secondary rounded-circle"> <i class="fa fa-facebook " aria-hidden="true"></i>
-                </a>
-                <a href="#" class="btn btn-secondary rounded-circle"> <i class="fa fa-instagram "
-                    aria-hidden="true"></i> </a>
-                <a href="#" class="btn btn-secondary rounded-circle"> <i class="fa fa-youtube " aria-hidden="true"></i>
-                </a>
-
-              </p>
-              <!-- <a href="#" class="inside-page__btn inside-page__btn--city">View deals</a> -->
-            </div>
-          </div>
-        </div>
-      </section>
-
-    </section>
   </section>
 
   <!-- Section Team ENd -->
@@ -645,31 +382,49 @@
 
   <!-- security section -->
 
-  <section class="security_section layout_padding">
+  <section class="security_section layout_padding" id="gallery">
     <div class="outer">
       <h2 class="grad">
-        GALLERY
+        MEDIA COVERAGE
       </h2>
     </div>
-    <div class="security_container">
-      <div class="carousel-wrap">
-        <div class="owl-carousel">
-          <div class="item">
-            <div class="security_img-box i-box-1">
-              <a href=""> View More</a>
-            </div>
-          </div>
-          <div class="item">
-            <div class="security_img-box i-box-2">
-              <a href=""> View More</a>
-            </div>
-          </div>
-          <div class="item">
-            <div class="security_img-box i-box-3">
-              <a href=""> View More</a>
-            </div>
-          </div>
+    <div class="container">
 
+
+      <div class="security_containe bg-dark">
+        <div class="carousel-wrap">
+          <div class="owl-carousel">
+            <div class="item">
+              <div class="p-2 inner_item">
+                <img src="images/news-1.jpg" class="img-fluid" alt="">
+              </div>
+            </div>
+            <div class="item">
+              <div class="p-2 inner_item">
+                <img src="images/news-2.jpg" class="img-fluid" alt="">
+              </div>
+            </div>
+            <div class="item">
+              <div class="p-2 inner_item">
+                <img src="images/news-3.jpg" class="img-fluid" alt="">
+              </div>
+            </div>
+            <div class="item">
+              <div class="p-2 inner_item">
+                <img src="images/news-4.jpg" class="img-fluid" alt="">
+              </div>
+            </div>
+            <div class="item">
+              <div class="p-2 inner_item">
+                <img src="images/news-5.jpg" class="img-fluid" alt="">
+              </div>
+            </div>
+            <div class="item">
+              <div class="p-2 inner_item">
+                <img src="images/news-6.jpg" class="img-fluid" alt="">
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -679,17 +434,19 @@
 
 
   <!-- story section -->
-  <div class="outer">
-    <h2 class="grad">
-      Events
-    </h2>
-  </div>
-  <section class="container-fluid events">
-    <div class="container">
+
+  <section class="container events" id="events">
+    <div class="outer">
+      <h2 class="grad">
+        Events
+      </h2>
+    </div>
+    <div class="container-fluid">
       <div class="row">
         <div class="col-sm-6 p-4">
-          <div class="card"
-            style="box-shadow:0px 6px 6px  #ff750485;border-radius: 10px;min-height: 200px;background: #ff7504;color: white;">
+          <div class="card" style="box-shadow:0px 6px 6px  #ff750485;border-radius: 10px;min-height: 200px;background: linear-gradient(to bottom,
+            var(--orange),
+            green);color: white;">
             <div class="row">
               <div class="col-sm-4">
                 <img src="" alt="" class="img-fluid rounded m-2">
@@ -710,34 +467,48 @@
       </div>
     </div>
   </section>
-
-  <section class="layout_padding story_section my-4">
-    <div class="container-fluid">
+  <br><br><br>
+  <h2>
+    <div class="outer">
+      <h2 class="grad p-2">
+        OUR PRESIDENT
+      </h2>
+    </div>
+  </h2>
+  <section class="layout_padding story_section my-4" style="height:auto" id="president">
+    <div class="container">
       <div class="row">
         <div class=" col-md-6" style="box-shadow: 0 0.5rem 1rem #fb62039f !important;">
           <div>
-            <img class="img-fluid" src="images/security.jpg" alt="" />
+            <img class="img-fluid" src="images/vaibhav_pawar.jpg" alt="" />
           </div>
         </div>
         <div class=" col-md-6">
-          <div class="story_detail">
-            <h3>
+          <div class="story_detail" style="height:auto">
 
-            </h3>
             <h2>
               <div class="outer">
-                <h2 class="grad">
-                  Shri Vaibhav Pawar Ji
+                <h2 class="grad p-2">
+                  श्री वैभव पवार जी
                 </h2>
               </div>
             </h2>
-            <p>
-              It is a long established fact that a reader will be distracted by the readable content of a page when
-              looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of
-              letters, as opposed to using 'Content here, content here', making it look like readable English. Many
-              desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a
-              search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved
-              over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+            <h3 class="text-center" style="font-size:21px ;font-weight: 700;">
+              प्रदेश अध्यक्ष , भारतीय जनता युवा मोर्चा (म.प्र. )
+            </h3>
+            <br>
+            <p style="font-size:16px ;font-weight: 500;">
+              भारतीय जनता युवा मोर्चा एक ऐसा नाम है जिसे जितना भी आत्मसात किया जाए उतना कम है यह केवल एक मोर्चा नहीं
+              बल्कि एक ऐसी संस्था है जिसमें मेरे जैसे करोड़ों कार्यकर्ताओं को अपनी नेतृत्व क्षमता सीखने सिखाने और दिखाने
+              का अवसर मिला है चाहे वह सेवा भाव का नेतृत्व या सामाजिक समरसता का नेतृत्व हो संगठनात्मक कार्यों का नेतृत्व
+              या ऐसे ही अन्य क्षेत्रों में सेवा रूपी नेतृत्व का अवसर मिला
+              <br>
+              माननीय मुख्यमंत्री श्री शिवराज सिंह चौहान जी भाजपा की यशस्वी प्रदेश अध्यक्ष श्री विष्णु दत्त शर्मा जी एवं
+              भाजपा के संगठन पदाधिकारियों का समय-समय पर मार्गदर्शन प्राप्त हुआ जिससे युवा मोर्चा को और ताकत मिली
+              राष्ट्रीय कार्यक्रमों और अभियानों को धरातल पर ले जाने के लिए युवा मोर्चा की राष्ट्रीय अध्यक्ष श्री तेजस्वी
+              सूर्या जी ने जिस तरह पथ प्रदर्शन किया उसे सेवा कार्य की एक नई ऊर्जा का संचार हुआ विगत 1 वर्ष में भाजपा
+              जनता युवा मोर्चा ने विभिन्न कार्यक्रमों के माध्यम से विभिन्न क्षेत्र में कार्य करने वाली युवा वर्ग तक
+              पहुंचने का प्रयास किया
             </p>
             <p class="inside-page__text">
               <a href="#" class="btn btn-secondary rounded-circle"> <i class="fa fa-facebook " aria-hidden="true"></i>
@@ -746,7 +517,7 @@
               </a>
               <a href="#" class="btn btn-secondary rounded-circle"> <i class="fa fa-youtube " aria-hidden="true"></i>
               </a>
-              <a href="#" class="btn btn-secondary rounded-circle"> <i class="fa fa-globe " aria-hidden="true"></i>
+              <a href="#" class="btn btn-secondary rounded-circle"> <i class="fa fa-twitter " aria-hidden="true"></i>
               </a>
             </p>
 
@@ -798,7 +569,15 @@
   <script type="text/javascript" src="js/bootstrap.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js">
   </script>
+  <script src="js/script.js"></script>
   <script type="text/javascript">
+
+
+
+
+
+
+
     $(".owl-carousel").owlCarousel({
       loop: true,
       margin: 20,
